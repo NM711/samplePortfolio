@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/output.css">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Portfolio Sample</title>
+</head>
+<body class="overflow-x-hidden">
+ <div class="grid grid-cols-4">
+    <nav id="navbar" class="col-span-4 bg-opacity-70 bg-black">
+        <header class="flex justify-between m-3">
+            <span class="text-5xl text-white">
+            NM
+            </span>
+            <ul id="navList" class="flex flex-row items-center">
+                <li class="md:mx-3 mx-1 my-1">
+                    <a href="#projectsSection" class="text-white md:text-xl text-lg">Projects</a>
+                </li>
+                <li class="md:mx-3 mx-1 my-1">
+                    <a href="#aboutMeSection" class="text-white md:text-xl text-lg">About Me</a>
+                </li>
+                <li class="md:mx-3 mx-1 my-1">
+                    <a href="#contactSection" class="text-white md:text-xl text-lg">Contact</a>
+                </li>
+            </ul>
+        </header>
+    </nav>
+    <section id="landingSection" class="col-span-4 border border-transparent my-24">
+        <header class="flex justify-start flex-col w-fit">
+            <h1 id="landingHeader" class="md:text-9xl text-7xl text-white opacity-0 -translate-x-96">Nathan</h1>
+            <h2 id="landingSubHeader" class="md:text-8xl text-6xl text-carribbeanGreen opacity-0 -translate-x-96">Dev</h2>
+        </header>
+    </section>
+    <!--Start of Project Section-->
+    <section id="projectsSection" class="col-span-4 my-72 bg-richBlack border-t border-t-carribbeanGreen">
+        <header class="sectionHeaders text-6xl text-white text-center my-3">
+            <h1>Projects</h1>
+        </header>
+        <section id="projectSection1" class="flex flex-col justify-center items-center text-center my-16 mx-5 text-white bg-richBlack -translate-x-96 opacity-0">
+            <section class="sectionProjects md:flex md:flex-row md:justify-between">
+                <div class="md:m-3">
+                    <img src="./img/MealRecipeSearchAndNoteApp.png">
+                </div>
+                <div class="md:mx-5">
+                    <header class="projectSectionHeaders text-3xl md:my-3 text-carribbeanGreen">
+                        <h1>Meal Search and Note App</h1>
+                    </header>
+                    <p class="text-lg md:mx-0 mx-3">
+                        This is an App I made in a few days, basically what it does is that it allows you to search for meals that are being fetched from the MealDB API.
+                        It also has the option to generate random meal recipes and lets you make your own meal recipes by storing them in local storage.
+                    </p>
+                    <p class="text-2xl md:my-3">
+                        <span class="text-carribbeanGreen">Technologies</span> I used for this project were html, tailwindcss, and javsascript.
+                    </p>
+                    <div class="flex justify-center items-center">
+                        <a href="https://github.com/NM711/Meal-Recipe-Search-and-Create-App" target="_blank" class="text-3xl m-1"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://mealrecipesearch.netlify.app/" target="_blank" class="text-3xl m-1"><ion-icon name="link-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </section>
+    </section>
+            <section id="projectSection2" class="flex flex-col justify-center items-center text-center my-16 mx-5 text-white bg-black translate-x-96 opacity-0">
+                <section class="sectionProjects md:flex md:flex-row md:justify-between">
+                    <div class="md:m-3 md:hidden block">
+                        <img src="./img/BajaMotoWorks.png">
+                     </div>
+                    <div class="md:mx-5">
+                        <header class="projectSectionHeaders text-3xl md:my-3 text-carribbeanGreen">
+                            <h1>Baja Moto Works</h1>
+                        </header>
+                        <p class="text-lg md:mx-0 mx-3">
+                           This is a static website I made for a small buisness called BajaMotoWorks. 
+                           BajaMotoWorks is a small buisness that repairs motorcycles and sells motorcycle parts.
+                        </p>
+                        <p class="text-2xl md:my-3">
+                            <span class="text-carribbeanGreen">Technologies</span> I used for this project were html, tailwindcss, and javsascript.
+                        </p>
+                        <div class="flex justify-center items-center">
+                            <a href="https://github.com/NM711/bajamotoworks-website" target="_blank" class="text-3xl m-1"><ion-icon name="logo-github"></ion-icon></a>
+                            <a href="https://bajamotoworks.netlify.app/" target="_blank" class="text-3xl m-1"><ion-icon name="link-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="md:m-3 md:block hidden">
+                       <img src="./img/BajaMotoWorks.png">
+                    </div>
+                 </section>
+             </section>
+
+                 <section id="projectSection3" class="flex flex-col justify-center items-center text-center my-16 mx-5 text-white bg-richBlack -translate-x-96 opacity-0">
+                    <section class="sectionProjects md:flex md:flex-row md:justify-between">
+                        <div class="md:m-3">
+                            <img src="./img/Portfolio.png">
+                        </div>
+                        <div class="md:mx-5">
+                            <header class="projectSectionHeaders text-3xl md:my-3 text-carribbeanGreen">
+                                <h1>This Portfolio</h1>
+                            </header>
+                            <p class="text-lg md:mx-0 mx-3">
+                                This portfolio
+                            </p>
+                            <p class="text-2xl md:my-3">
+                                <span class="text-carribbeanGreen">Technologies</span> I used for this project were html, tailwindcss, and javsascript.
+                            </p>
+                            <div class="flex justify-center items-center">
+                                <a href="#" class="text-3xl m-1"><ion-icon name="logo-github"></ion-icon></a>
+                                <a href="#" class="text-3xl m-1"><ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                </section>
+        </section>
+    </section>
+
+    <section id="aboutMeSection" class="col-span-4 bg-richBlack border-t border-t-carribbeanGreen">
+        <header class="sectionHeaders text-6xl text-white text-center my-3">
+            <h1>About Me</h1>
+        </header>
+
+        <section class="flex md:flex-row flex-col md:justify-around justify-center items-center my-5">
+            <section id="technologiesIUse1" class="mx-3 bg-black md:flex md:flex-col hidden md:opacity-0 md:-translate-y-24">
+                <header class="aboutMeSectionHeaders text-carribbeanGreen text-center text-3xl md:my-3">Technologies I Use:</header>
+                <div class="technologyLogoContainers flex flex-row text-5xl text-white">
+                <span class="mx-3"><ion-icon name="logo-html5"></ion-icon></span>
+                <span class="mx-3"><ion-icon name="logo-css3"></ion-icon></span>
+                <span>
+                    <svg preserveAspectRatio="none" class="-my-1" width="80" height="115" role="img" viewBox="0 0 28 45" fill="#FFFF" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+                </span>
+                <span class="mx-3"><ion-icon name="logo-javascript"></ion-icon></span>
+                <span class="mx-3"><ion-icon name="logo-npm"></ion-icon></span>
+                </div>
+            </section>
+            <section id="aboutMe" class="mx-3">
+                <header class="aboutMeSectionHeaders text-carribbeanGreen text-center text-3xl md:my-3">About Me</header>
+                <p class="text-lg text-white text-center mx-16">Im a student in my junior year of highschool learning frontend web development, coding is my hobby and passion. 
+                    I aspire to become a great developer, im always ready to learn and build things with what I have learned.
+                     Also if you have not noticed yet I like the color <span class="text-2xl text-carribbeanGreen">Green</span></p>
+            </section>
+            <section id="technologiesIUse2" class="mx-3 my-5 bg-black md:hidden static opacity-0 translate-x-96">
+                <header class="aboutMeSectionHeaders text-carribbeanGreen text-center text-3xl md:my-3">Technologies I Use:</header>
+                <div class="flex flex-row text-5xl text-white my-3">
+                <span class="mx-3"><ion-icon name="logo-html5"></ion-icon></span>
+                <span class="mx-3"><ion-icon name="logo-css3"></ion-icon></span>
+                <span>
+                    <svg preserveAspectRatio="none" class="-my-1" width="80" height="115" role="img" viewBox="0 0 28 45" fill="#FFFF" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+                </span>
+                <span class="mx-3"><ion-icon name="logo-javascript"></ion-icon></span>
+                <span class="mx-3"><ion-icon name="logo-npm"></ion-icon></span>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <section id="contactSection" class="col-span-4 my-36 h-full bg-richBlack border-t border-t-carribbeanGreen">
+        <header class="sectionHeaders text-6xl text-white text-center my-3">
+            <h1>Contact Me</h1>
+        </header>
+        <section class="flex flex-row justify-center items-center">
+            <div>
+                <span class="text-5xl text-white text-center">
+                    <a href="#"><ion-icon class="-my-1 mx-1" name="mail-outline"></ion-icon></a>
+                </span>
+
+            </div>
+            <div>
+                <span class="text-5xl text-center text-white">
+                    <a href="#"><ion-icon name="logo-linkedin"></a></ion-icon>
+                </span>
+            </div>
+
+            <div class="my-5">
+                <span class="text-5xl text-center text-white">
+                    <a href="https://github.com/NM711" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </span>
+            </div>
+        </section>
+    </section>
+ </div>
+<!--USE BLACK BACKGROUND FOR THE SECTIONS-->
+
+<script src="my.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
